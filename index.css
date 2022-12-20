@@ -43,6 +43,7 @@
 	color: #e9ecef ;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 5px;
 }
 .calculadora
 {
@@ -68,6 +69,7 @@
 	height: 25px;
 	padding: 8px;
 	text-align: center;
+	overflow:hidden;
 }
 .button
 {
@@ -80,12 +82,16 @@
 	border-bottom: none;
 	margin: 1px;
 	padding-top: 1px;
-	border-radius: 7px;
+	border-radius: 10px;
 	transition: background-color 0.3s;
 }
 .button:hover
 {
 	background-color: black;
+}
+table
+{
+	padding-top: 7px;
 }
 
 #assign
